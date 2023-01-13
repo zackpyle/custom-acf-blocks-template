@@ -1,0 +1,133 @@
+[
+    {
+        "key": "group_63651e35b8f03",
+        "title": "Custom CTA Block",
+        "fields": [
+            {
+                "key": "field_636522904dc56",
+                "label": "Background Color",
+                "name": "blog_cta_bg_color",
+                "aria-label": "",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "bg-cream": "Cream",
+                    "bg-red": "Red",
+                    "bg-blue": "Blue",
+                    "bg-black": "Black",
+                    "bg-purple": "Purple",
+                    "bg-green": "Green"
+                },
+                "default_value": "bg-cream",
+                "return_format": "value",
+                "multiple": 0,
+                "allow_null": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_63651e42fbd4d",
+                "label": "CTA Title",
+                "name": "blog_cta_title",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6365231a4dc57",
+                "label": "CTA Text",
+                "name": "blog_cta_text",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 6,
+                "new_lines": "wpautop"
+            },
+            {
+                "key": "field_636523304dc58",
+                "label": "CTA Button Text",
+                "name": "blog_cta_button_text",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_636523494dc59",
+                "label": "CTA Button Link",
+                "name": "blog_cta_button_link",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf\/custom-cta-block"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]

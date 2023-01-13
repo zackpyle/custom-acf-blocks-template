@@ -1,0 +1,17 @@
+{
+    "name": "acf/my-example-acf-block",
+    "title": "My Other ACF Example Block",
+    "description": "This is a description of my second example ACF block",
+    "category": "my-acf-blocks",
+    "keywords": ["testimonial", "quote"],
+    "icon": "admin-comments",
+    "script": "file:./js/scripts.js",
+    "style": "file:./css/styles.css",
+    "supports": {
+      "jsx": false
+    },
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "template.php"
+    }
+}
