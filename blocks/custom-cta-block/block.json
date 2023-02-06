@@ -13,5 +13,8 @@
     "acf": {
         "mode": "preview",
         "renderTemplate": "template.php"
+    },
+    "beaverBuilder": {
+        "group": "My BB Module Group Name"
     }
 }
