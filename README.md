@@ -13,6 +13,6 @@ This is a plugin that creates a custom ACF Blocks, registers a custom block cate
 7. When using this block inside of Beaver Builder, you can assign your block (module) to a group other than Standard Modules in The Content Panel by adding the following code to block.json:
 ```json
 "beaverBuilder": {
-    "group": "ACF Blocks"
+    "group": "My Custom Blocks"
 }
 ```
